@@ -3,7 +3,7 @@ import { join } from "node:path";
 import { describe, expect, it } from "vitest";
 
 const guide = readFileSync(
-  join(process.cwd(), "plugins/note-graph/guide.md"),
+  join(process.cwd(), "guide.md"),
   "utf8",
 );
 
